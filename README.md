@@ -3,10 +3,7 @@
 Python需要使用的包：selenium、twilio(用于短信通知，不需要可以不使用)
 
 # 脚本包含的文件
-main.py 操作执行的代码文件
-repeat.sh sh脚本，用于调用python文件（crontab直接调用python可能会出现问题）
-on_time_start.log 日志文件，用于记录脚本每日的执行结果
-chromedriver Chrome的webdriver，selenium使用时需要调用
+main.py 操作执行的代码文件；repeat.sh sh脚本，用于调用python文件（crontab直接调用python可能会出现问题）；on_time_start.log 日志文件，用于记录脚本每日的执行结果；chromedriver Chrome的webdriver，selenium使用时需要调用
 
 # 前期准备
 下载selenium、twilio包
